@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+var clicks = 0;
+
+  function myFunction() {
+    clicks++;
+    document.getElementById("changeMessage").innerHTML = "You clicked the button "+clicks+" times";
+    console.log(clicks);
+  }
+
+
+</script>
+<head>
+    <meta charset="utf-8">
+    <title>Wireless Project Concepts</title>
+</head>
+
+<body bgcolor="#15c478">
+    <style media="screen">
+        h1 {
+            color: maroon;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h1 {
+            font-family: verdana;
+        }
+    </style>
+    <h1>Wireless Project Concepts</h1>
+    <img src="20170124_232236.jpg" alt="HTML5 Icon" style="width:785px;height:1280px;">
+      <img src="20170124_232242.jpg" alt="HTML5 Icon" style="width:785px;height:1280px;">
+  <img src="20170124_232245.jpg" alt="HTML5 Icon" style="width:785px;height:1280px;">
+    <img src="20170124_232252.jpg" alt="HTML5 Icon" style="width:785px;height:1280px;">
+    <h1>JavaScript in Action!</h1>
+
+      <p id="changeMessage">Click the Button</p>
+
+      <button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+
+
+</html>
